@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+    height: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #ff9900;
+}
+
+.courses {
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo{
+    background-image: 'topacademyimage.jpg';
+}
+.text-overlay {
+    position: relative;
+    top: 50%; /* Adjust the position vertically */
+    left: 50%;
+    bottom: 10%; /* Adjust the position horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    background: rgba(129, 126, 126, 0.7); /* Background color for text */
+    color: #fff; /* Text color */
+    padding: 100px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+}
